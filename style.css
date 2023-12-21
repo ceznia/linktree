@@ -1,0 +1,82 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 110%;
+    color: white;
+    background-image: linear-gradient(to bottom right, #363849, #41436a, #878ab8);
+    text-align: center;
+    height: 100%;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+  }
+
+  .inhalt {
+    display: flex;
+    justify-content: center; /* Ändere von flex-start auf center */
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Ändere auf 100vh, um die gesamte Bildschirmhöhe zu verwenden */
+}
+
+  p {
+    line-height: 1.5; /* Hier kannst du den gewünschten Zeilenabstand einstellen */
+}
+  
+.button-link {
+  font-size: 100%;
+  display: inline-block;
+  margin: 5px 0; /* Füge Platz zwischen den Buttons hinzu */
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #7979a3; /* Farbe des Hintergrunds */
+  color: #ffffff; /* Textfarbe */
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.button-link:hover {
+  background-color: #a4a4ff; /* Farbänderung bei Hover */
+}
+
+  a {
+    color: #acc48b;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+
+  a:hover {
+    color: white;
+    background-color: #0c4136;
+  }
+
+  main {
+    border: 2px solid #a4a4ff;
+    border-radius: 12px;
+    padding: 30px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    margin: 20px;
+  }
+
+  .bild {
+    margin: 10px;
+    width: 300px;
+  }
+
+  .title {
+    margin: 10px;
+  }
