@@ -13,26 +13,26 @@ body {
 
   .inhalt {
     display: flex;
-    justify-content: center; /* Ändere von flex-start auf center */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh; /* Ändere auf 100vh, um die gesamte Bildschirmhöhe zu verwenden */
+    height: 100vh; 
 }
 
   p {
-    line-height: 1.5; /* Hier kannst du den gewünschten Zeilenabstand einstellen */
+    line-height: 1.5; 
 }
   
 .button-link {
   font-size: 100%;
   display: inline-block;
-  margin: 5px 0; /* Füge Platz zwischen den Buttons hinzu */
+  margin: 5px 0; 
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  background-color: #7979a3; /* Farbe des Hintergrunds */
-  color: #ffffff; /* Textfarbe */
+  background-color: #7979a3; 
+  color: #ffffff; 
   border: none;
   border-radius: 20px;
   transition: background-color 0.3s ease;
@@ -40,7 +40,7 @@ body {
 }
 
 .button-link:hover {
-  background-color: #a4a4ff; /* Farbänderung bei Hover */
+  background-color: #a4a4ff;
 }
 
   a {
